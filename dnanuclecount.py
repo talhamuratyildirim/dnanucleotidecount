@@ -42,6 +42,7 @@ st.header("OUTPUT (DNA Nucleotide Count)")
 
 st.subheader("1. Print Dictionary")
 
+# Creating a dictionary function 
 def dna_dic(dna_sequence):
     dic = {
         "A": dna_sequence.count("a"),
