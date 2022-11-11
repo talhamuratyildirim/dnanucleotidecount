@@ -10,7 +10,7 @@ from PIL import Image
 
 
 # Create image variable that will be shown on top of the page
-image = Image.open("dnastructure.jpg")
+image = Image.open('dnastructure.jpg')
 
 st.image(image, use_column_width=True)
 
